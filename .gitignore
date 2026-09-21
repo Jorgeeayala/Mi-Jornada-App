@@ -10,12 +10,4 @@ Thumbs.db
 .idea/
 
 # IGNORAR TODO LO TEMPORAL DE ANDROID (Ultra estricto)
-android/.gradle/
-android/.idea/
-android/build/
-android/app/build/
-android/captures/
-android/local.properties
-android/.cxx/
-android/*.iml
-*.log
+android/                                                                      
