@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_status_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi Jornada"
+        android:textColor="#10b981"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btn_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="6dp"
+            android:background="@drawable/widget_btn_active">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🟢"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/btn_in_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrada"
+                android:textColor="#ffffff"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lunch_out"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="6dp"
+            android:background="@drawable/widget_btn_inactive">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍽️"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/btn_lunch_out_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Almuerzo"
+                android:textColor="#94a3b8"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_lunch_in"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="6dp"
+            android:background="@drawable/widget_btn_inactive">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="↩️"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/btn_lunch_in_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vuelta"
+                android:textColor="#94a3b8"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_out"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="6dp"
+            android:background="@drawable/widget_btn_inactive">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🔴"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/btn_out_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salida"
+                android:textColor="#94a3b8"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+dist/
+www/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# IGNORAR TODO LO TEMPORAL DE ANDROID (Ultra estricto)
+android/.gradle/
+android/.idea/
+android/build/
+android/app/build/
+android/captures/
+android/local.properties
+android/.cxx/
+android/*.iml
+*.log

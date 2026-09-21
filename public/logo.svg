@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo oscuro -->
+  <rect width="512" height="512" fill="#020617"/>
+  
+  <!-- Círculo exterior verde -->
+  <circle cx="256" cy="256" r="230" fill="#10b981"/>
+  
+  <!-- Círculo interior oscuro -->
+  <circle cx="256" cy="256" r="200" fill="#020617"/>
+  
+  <!-- Borde del reloj -->
+  <circle cx="256" cy="256" r="185" fill="none" stroke="#10b981" stroke-width="15"/>
+  
+  <!-- Marcas de horas -->
+  <g stroke="#10b981" stroke-width="8" stroke-linecap="round">
+    <!-- 12 -->
+    <line x1="256" y1="70" x2="256" y2="100"/>
+    <!-- 3 -->
+    <line x1="442" y1="256" x2="412" y2="256"/>
+    <!-- 6 -->
+    <line x1="256" y1="442" x2="256" y2="412"/>
+    <!-- 9 -->
+    <line x1="70" y1="256" x2="100" y2="256"/>
+  </g>
+  
+  <!-- Centro dorado -->
+  <circle cx="256" cy="256" r="18" fill="#fbbf24"/>
+  
+  <!-- Aguja horaria (corta) -->
+  <line x1="256" y1="256" x2="256" y2="150" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Aguja minutera (larga) -->
+  <line x1="256" y1="256" x2="320" y2="110" stroke="#f0fdf4" stroke-width="10" stroke-linecap="round"/>
+</svg>
